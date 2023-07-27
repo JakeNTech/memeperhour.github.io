@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-        <title>memes</title>
-        <link rel="shortcut icon" href="/assets/img/favicon.png"/>
-        <!-- <link rel="stylesheet" href="/assets/styele.css"> -->
+        <title>Memes</title>
+        <link rel="shortcut icon" href="https://jakentech.github.io/assets/img/favicon.png"/>
+        <link rel="stylesheet" href="https://jakentech.github.io/sass/style.min.css">
         <!-- META STUFF https://developers.facebook.com/docs/sharing/webmasters/ -->
-        <meta property="og:url" content="memeperhour.lol" />
+        <meta property="og:url" content="memeperhour.lol"/>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Memes Per Hour" />
+        <meta property="og:title" content="Memes Per Hour"/>
         <meta property="og:description" content="Lets look at the name, memes per hour. You can do the guess work" />
         <meta property="og:image" content="/assets/img/Jake_Says_No.png" />
         <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary -->
@@ -21,6 +21,9 @@
         <!-- https://developers.google.com/search/docs/advanced/crawling/special-tags  -->
         <meta name="description"content="Lets look at the name, memes per hour. You can do the guess work">
         <style>
+            body{
+            background-color: #000;
+            }
             * {
                 margin: 0;
                 padding: 0;
@@ -38,6 +41,9 @@
     </head>
     <body>
         <div class="imgbox" id="the_meme"></div>
+        <div class="social_links">
+            <a href="mailto:jakentech@gmail.com" target="_blank" rel="noopener noreferrer">Meme Submission</a>
+        </div>
         <script>
             memes_array = ["Biggest_brain.jpg","Bob_Nenadic_Maths.jpg","fixing_pearents_tech.jpg","How_To_Close_Tickets.jpeg","i_hate_spelling.jpg","Jake_Artist.jpg","jake_escobar.jpg","Jake_Says_No.png","Me_irl_2.jpg","Me_Maths.jpg","no_differnece.jpg","reply_all.jpg","Reports_Are_Done.jpg","SUV_owners.jpg","the_four_stages_of_getting_it_to_work.jpg","TTDS_Maths.png"]
                 // select a meme
