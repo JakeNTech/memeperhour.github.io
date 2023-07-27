@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <title>memes</title>
+        <link rel="shortcut icon" href="/assets/img/favicon.png"/>
+        <!-- <link rel="stylesheet" href="/assets/styele.css"> -->
+        <!-- META STUFF https://developers.facebook.com/docs/sharing/webmasters/ -->
+        <meta property="og:url" content="memeperhour.lol" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Memes Per Hour" />
+        <meta property="og:description" content="Lets look at the name, memes per hour. You can do the guess work" />
+        <meta property="og:image" content="/assets/img/Jake_Says_No.png" />
+        <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JakeNTech" />
+        <meta name="twitter:title" content="Memes Per Hour" />
+        <meta name="twitter:description" content="Lets look at the name, memes per hour. You can do the guess work" />
+        <meta name="twitter:image" content="/assets/img/Jake_Says_No.png" />
+        <!-- https://developers.google.com/search/docs/advanced/crawling/special-tags  -->
+        <meta name="description"content="Lets look at the name, memes per hour. You can do the guess work">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .imgbox {
+                display: grid;
+                height: 100%;
+            }
+            .center-fit {
+                max-width: 100%;
+                max-height: 100vh;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="imgbox" id="the_meme"></div>
+        <script>
+            memes_array = ["Biggest_brain.jpg","Bob_Nenadic_Maths.jpg","fixing_pearents_tech.jpg","How_To_Close_Tickets.jpeg","i_hate_spelling.jpg","Jake_Artist.jpg","jake_escobar.jpg","Jake_Says_No.png","Me_irl_2.jpg","Me_Maths.jpg","no_differnece.jpg","reply_all.jpg","Reports_Are_Done.jpg","SUV_owners.jpg","the_four_stages_of_getting_it_to_work.jpg","TTDS_Maths.png"]
+                // select a meme
+                image_path = memes_array[Math.floor(Math.random()*memes_array.length)]
+                console.log(image_path)
+                // change the background to a meme
+                document.getElementById("the_meme").innerHTML = "<img class='center-fit' src='/assets/img/"+image_path+"'>";
+
+        </script>
+    </body>
+</html>
