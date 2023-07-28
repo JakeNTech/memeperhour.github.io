@@ -10,4 +10,4 @@ function show_meme(){
 // Run function once
 show_meme()       
 
-while(i=1){await new Promise(r => setTimeout(r, 60*60000));show_meme}
+// while(i=1){await new Promise(r => setTimeout(r, 60*60000));show_meme}
