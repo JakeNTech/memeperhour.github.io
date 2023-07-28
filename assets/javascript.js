@@ -8,4 +8,5 @@ function show_meme(){
 }
 
 // Run function once
-show_meme()
+//300000 milliseconds = 5 minutes
+setInterval(show_meme,300000)
