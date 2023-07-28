@@ -4,10 +4,8 @@ function show_meme(){
     image_path = memes_array[Math.floor(Math.random()*memes_array.length)]
     console.log(image_path)
     // change the background to a meme
-    document.getElementById("the_meme").innerHTML = "<img class='center-fit' src='https://jakentech.github.io/memeperhour.github.io/assets/img/"+image_path+"'>";
+    document.getElementById("the_meme").innerHTML = "<img class='center-fit' onclick='show_meme()' src='https://jakentech.github.io/memeperhour.github.io/assets/img/"+image_path+"'>";
 }
 
 // Run function once
-show_meme()       
-
-// while(i=1){await new Promise(r => setTimeout(r, 60*60000));show_meme}
+show_meme()
