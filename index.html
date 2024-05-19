@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-        <title>Memes</title>
+        <title>MemeperHour</title>
         <link rel="shortcut icon" href="https://jakentech.github.io/assets/img/favicon.png"/>
         <link rel="stylesheet" href="https://jakentech.github.io/sass/style.min.css">
         <!-- META STUFF https://developers.facebook.com/docs/sharing/webmasters/ -->
@@ -22,15 +22,17 @@
         <meta name="description"content="Lets look at the name, memes per hour. You can do the guess work">
         <style>
             body{
-            background-color: #000;
-            }
-            * {
-                margin: 0;
-                padding: 0;
+                background-color: #000;
+                margin:0;
+                height: 100%;
             }
             .imgbox {
                 display: grid;
                 height: 100%;
+            }
+            img{
+                display: block;
+                object-fit: cover;
             }
             .center-fit {
                 max-width: 100%;
@@ -41,10 +43,10 @@
     </head>
     <body>
         <div class="imgbox" id="the_meme"></div>
-        <div class="social_links">
+        <!-- <div class="social_links">
             <a href="mailto:jakentech@gmail.com" target="_blank" rel="noopener noreferrer">Meme Submission</a>
             <br>
-        </div>
+        </div>  -->
         <script src="https://jakentech.github.io/memeperhour.github.io/assets/javascript.js"></script>
     </body>
 </html>
