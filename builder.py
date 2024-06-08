@@ -5,6 +5,9 @@ CWD = os.getcwd()
 if __name__ == "__main__":
     print("Generating new HTML Code!")
 
+    # Remove all metadata
+    # os.system("exiftool -overwrite_original -recurse -all= *")
+
     # List Meme Folder contents
     meme_folder_array = os.listdir(os.path.join(CWD, "assets", "img"))
     print(f"Found {len(meme_folder_array)} Memes!")
@@ -29,7 +32,10 @@ if __name__ == "__main__":
     with open(os.path.join(CWD,"README.md"),"w") as f:
         f.write("# Memeperhour.lol\n")
         f.write("The website for a meme per hour!\n")
-        f.write(f"There are currently {str(len(meme_folder_array))} in the folder! Yay!")
+        f.write(f"There are currently {str(len(meme_folder_array))} in the folder! Yay!\n\n")
+        f.write("## Meme List\n")
+        for i in range(0,len(meme_folder_array)):
+            f.write(f"   - {meme_folder_array[i]}\n")
 
     print("Exiting...")
 
