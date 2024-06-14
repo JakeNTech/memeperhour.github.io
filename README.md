@@ -22,13 +22,13 @@ There are currently 60 in the folder! Yay!
    - Everybody_Gets_an_idea.jpg
    - fixing_pearents_tech.jpg
    - fix_the_laptop.gif
-   - Footbrick.jpg
    - Harold_Nenadic_Beach.jpg
    - How_To_Close_Tickets.jpeg
    - im_am_James_May.jpg
    - its_a_complicated_relationship.jpg
    - its_fun_in_an_ax.jpg
    - its_honeslty_a_mystry.jpg
+   - its_me.jpg
    - it_broke.jpg
    - it_was_a_good_idea.jpg
    - it_will_be_a_GPT.jpg
