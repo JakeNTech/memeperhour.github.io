@@ -1,6 +1,6 @@
 # Memeperhour.lol
 The website for a meme per hour!
-There are currently 61 in the folder! Yay!
+There are currently 56 in the folder! Yay!
 
 ## Meme List
    - 9.jpg
@@ -9,9 +9,6 @@ There are currently 61 in the folder! Yay!
    - a_day_in_the_life_of_info_sec.jpg
    - a_true_masterpeice.jpg
    - barbie (1).jpg
-   - Biggest_brain.jpg
-   - big_brain.jpeg
-   - Bob_Nenadic_CV.jpg
    - Bob_Nenadic_Maths.jpg
    - bob_strikes_again.jpg
    - but_it_does_run.jpg
@@ -19,10 +16,8 @@ There are currently 61 in the folder! Yay!
    - dissapointed_jake.jpg
    - disstraction.jpg
    - double_o_point_seven_at_your_service.jpg
-   - Everybody_Gets_an_idea.jpg
    - fixing_pearents_tech.jpg
    - fix_the_laptop.gif
-   - Harold_Nenadic_Beach.jpg
    - How_To_Close_Tickets.jpeg
    - im_am_James_May.jpg
    - its_a_complicated_relationship.jpg
@@ -48,15 +43,15 @@ There are currently 61 in the folder! Yay!
    - me_irl.jpg
    - Me_irl_2.jpg
    - Me_Maths.jpg
-   - Mr_Meme.jpg
+   - not_now_sweetie_im_memeing_on_them.jpg
    - no_differnece.jpg
+   - oopsie_just_got_hacked.jpg
    - POV_Me.jpg
    - read_only_friday.jpg
    - reply_all.jpg
    - Reports_Are_Done.jpg
    - Screenshot 2024-06-08 213847.png
    - skill_mcgill.jpg
-   - speed_and_power.jpg
    - SUV_owners.jpg
    - TheNumbers_they_are_the_same.png
    - then_what_does_it_mean.jpg
