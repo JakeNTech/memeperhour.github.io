@@ -1,6 +1,6 @@
 # Memeperhour.lol
 The website for a meme per hour!
-There are currently 56 in the folder! Yay!
+There are currently 57 in the folder! Yay!
 
 ## Meme List
    - 9.jpg
@@ -52,6 +52,7 @@ There are currently 56 in the folder! Yay!
    - Reports_Are_Done.jpg
    - Screenshot 2024-06-08 213847.png
    - skill_mcgill.jpg
+   - SOC_job_role.jpg
    - SUV_owners.jpg
    - TheNumbers_they_are_the_same.png
    - then_what_does_it_mean.jpg
